@@ -1,0 +1,56 @@
+What is RESTFul Web Service?
+Answer : There are two popular way to develop web services, using SOAP (Simple Object Access Protocol) 
+which is XML based way to expose web services and second REST based web services which uses HTTP protocol. 
+Web services developed using REST style is also known as RESTful Web Services.
+
+what is http basic authentication and how it works in rest web services
+Answer : Java restful webservices with HTTP basic authentication. In the context of a HTTP transaction, basic access 
+authentication is a method for an HTTP user agent to provide a user name and password when making a request.
+
+How you apply security in RESTFul web services
+Answer : 
+Securing RESTful Web Services Using web.xml
+Define a <security-constraint> for each set of RESTful resources (URIs) that you plan to protect.
+Use the <login-config> element to define the type of authentication you want to use and the security realm to which the security constraints will be applied.
+
+Question 4 : Can you tell me which API can be used to develop RESTFul web service in Java?
+Answer : There are many framework and libraries out there which helps to develop RESTful web services in Java including 
+JAX-RS which is standard way to develop REST web services. Jersey is one of the popular implementation of JAX-RS which also 
+offers more than specification recommends. Then you also have RESTEasy, RESTlet and Apache CFX. If you like Scala then you 
+can also use Play framework to develop RESTful web services.
+
+Have you used Jersey API to develop RESTful services in Java?
+Answer : Jersey is one of the most popular framework and API to develop REST based web services in Java. 
+Since many organization uses Jersey they check if candidate has used it before or not. It's simple to answer, 
+say Yes if you have really used and No, 
+if you have not. In case of No, you should also mention which framework you have used for developing RESTful web services e.g. 
+Apache CFX, Play or Restlet.
+
+What do you understand by payload in RESTFul?
+Answer : Payload means data which passed inside request body also payload is not request parameters. 
+So only you can do payload in POST  and not in GET and DELTE method
+
+How you test RESTful web services?
+If you are going to test your own Web service, make sure it is deployed and running.
+Choose Tools.. rest client/postman.
+Select the test request method from the HTTP method drop-down list. ...
+Provide the data to calculate the URL address of the target method:
+
+What is difference between SOAP and RESTFul web services?
+Answer : There are many difference between these two style of web services e.g. 
+SOAP take more bandwidth because of heavy weight XML based protocol but REST takes less bandwidth because of popular 
+use of JSON as message protocol and leveraging HTTP method to define action. This also means that REST is faster than 
+SOAP based web services. You can derive many differences between SOAP and RESTful with the fact that its HTTP based e.g. 
+REST URLs can be cached or bookmarked. Here are few more differences between them :
+
+Question 17 : If you have to develop web services which one you will choose SOAP OR RESTful and why?
+Answer : You can answer this question based upon your experience but the key here is if you know difference between 
+them than you can answer this question in more detail. For example, its easy to develop RESTful web services than 
+SOAP based web services but later comes with some in-built security features.
+
+
+
+
+
+
+
